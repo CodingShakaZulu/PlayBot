@@ -1,5 +1,3 @@
-// Install Node.js and a code editor like Visual Studio Code
-// Create a new project and initialize a package.json file
 npm init
 
 // Install required dependencies

@@ -1,8 +1,3 @@
-npm init
-
-// Install required dependencies
-
-
 const express = require('express')
 const app = express()
 

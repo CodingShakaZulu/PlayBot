@@ -1,11 +1,23 @@
 {
   "name": "playbot",
   "private": "true",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A music player from various streams",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "watch": "rollup -cw"
   },
-  "author": ""
+  "author": "",
+  "devDependencies": {
+    "rollup": "^3.20.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-watch": "^4.3.1",
+    "typescript": "^5.0.2",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }

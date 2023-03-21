@@ -5,17 +5,25 @@
   "description": "A music player from various streams",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c",
-    "watch": "rollup -cw"
+    "build": "rollup --config"
   },
   "author": "",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-html": "^1.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "rollup": "^3.20.0",
-    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2",
     "rollup-watch": "^4.3.1",
     "typescript": "^5.0.2",
     "typings": "^2.1.1"
   },
+  "type": "module",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
